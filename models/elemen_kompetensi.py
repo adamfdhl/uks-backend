@@ -9,10 +9,10 @@ class ElemenKompetensiModel(db.Model):
 
     id_unit = db.Column(db.Integer, db.ForeignKey(
         'unit_kompetensi.id'))
-    unit_kompetensi = db.relationship("UnitKompetensiModel", lazy="dynamic")
+    unit_kompetensi = db.relationship("UnitKompetensiModel", lazy=True)
 
     kriteria_unjuk_kerja = db.relationship(
-        "KriteriaUnjukKerjaModel", lazy="dynamic")
+        "KriteriaUnjukKerjaModel", lazy=True)
 
     def __init__(self, id_unit, elemen_kompetensi):
         self.id_unit = id_unit

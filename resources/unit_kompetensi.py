@@ -29,4 +29,4 @@ class UnitKompetensi(Resource):
 
 class ListUnitKompetensi(Resource):
     def get(self):
-        return {"unit": [unit.json() for unit in UnitKompetensiModel.query().all()]}
+        return {"unit": [unit.json() for unit in UnitKompetensiModel.query.all()]}

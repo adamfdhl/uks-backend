@@ -9,7 +9,7 @@ class KriteriaUnjukKerjaModel(db.Model):
 
     elemen_id = db.Column(db.Integer, db.ForeignKey('elemen_kompetensi.id'))
     elemen_kompetensi = db.relationship(
-        'ElemenKompetensiModel', lazy="dynamic")
+        'ElemenKompetensiModel', lazy=True)
 
     def __init__(self, elemen_id, kriteria):
         self.elemen_id = elemen_id
