@@ -1,12 +1,14 @@
 import sqlite3
+import psycopg2
 from db import db
 
 
 class UnitKompetensiModel(db.Model):
     __tablename__ = 'unit_kompetensi'
     id = db.Column(db.Integer, primary_key=True)
-    kode_unit = db.Column(db.String(100))
-    judul_unit = db.Column(db.String(100))
+    kode_unit = db.Column(db.String(500))
+    judul_unit = db.Column(db.String(500))
+    deskripsi_unit = db.Column(db.String(500))
 
     elemen_kompetensi = db.relationship(
         "ElemenKompetensiModel", lazy=True)

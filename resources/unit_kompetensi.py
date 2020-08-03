@@ -1,9 +1,16 @@
 import sqlite3
-from flask_restful import Resource
+import psycopg2
+from flask_restful import Resource, reqparse
 from models.unit_kompetensi import UnitKompetensiModel
 
 
 class UnitKompetensi(Resource):
+    parser = reqparse.RequestParser()
+    parser.add_argument("kode_unit", type=str, required=True,
+                        help="This field can't be blank.")
+    parser.add_argument("judul_unit", type=str, required=True,
+                        help="This field can't be blank.")
+
     def get(self, kode_unit):
         uk = UnitKompetensiModel.find_by_kode_unit(kode_unit)
         if uk:
@@ -14,7 +21,8 @@ class UnitKompetensi(Resource):
         if UnitKompetensiModel.find_by_kode_unit(kode_unit):
             return {"message": "Unit Kompetensi {} already exists".format(kode_unit)}, 400
 
-        uk = UnitKompetensiModel(kode_unit, judul_unit)
+        data = UnitKompetensi.parser.parse_args()
+        uk = UnitKompetensiModel(**data)
         try:
             uk.save_to_db()
         except:

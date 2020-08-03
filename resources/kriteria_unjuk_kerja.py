@@ -1,4 +1,5 @@
 import sqlite3
+import psycopg2
 from flask_restful import Resource, reqparse
 from models.kriteria_unjuk_kerja import KriteriaUnjukKerjaModel
 

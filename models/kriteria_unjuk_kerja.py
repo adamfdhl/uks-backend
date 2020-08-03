@@ -1,11 +1,12 @@
 import sqlite3
+import psycopg2
 from db import db
 
 
 class KriteriaUnjukKerjaModel(db.Model):
     __tablename__ = 'kriteria_unjuk_kerja'
     id = db.Column(db.Integer, primary_key=True)
-    kriteria = db.Column(db.String(100))
+    kriteria = db.Column(db.String(500))
 
     elemen_id = db.Column(db.Integer, db.ForeignKey('elemen_kompetensi.id'))
     elemen_kompetensi = db.relationship(

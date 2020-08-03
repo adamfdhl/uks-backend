@@ -1,11 +1,12 @@
 import sqlite3
+import psycopg2
 from db import db
 
 
 class ElemenKompetensiModel(db.Model):
     __tablename__ = 'elemen_kompetensi'
     id = db.Column(db.Integer, primary_key=True)
-    elemen_kompetensi = db.Column(db.String(100))
+    elemen_kompetensi = db.Column(db.String(500))
 
     id_unit = db.Column(db.Integer, db.ForeignKey(
         'unit_kompetensi.id'))
