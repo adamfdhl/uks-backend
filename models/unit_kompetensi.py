@@ -13,18 +13,20 @@ class UnitKompetensiModel(db.Model):
     elemen_kompetensi = db.relationship(
         "ElemenKompetensiModel", lazy=True)
 
-    def __init__(self, kode_unit, judul_unit):
+    def __init__(self, kode_unit, judul_unit, deskripsi_unit):
         self.kode_unit = kode_unit
         self.judul_unit = judul_unit
+        self.deskripsi_unit = deskripsi_unit
 
     def __repr__(self):
-        return "<ElemenKompetensi kode_unit {}: {}>".format(self.kode_unit, self.judul_unit)
+        return "<UnitKompetensi kode_unit: {}, judul_unit: {}, deskripsi_unit: {}>".format(self.kode_unit, self.judul_unit, self.deskripsi_unit)
 
     def json(self):
         return {
             "kode unit": self.kode_unit,
             "judul unit": self.judul_unit,
-            "elemen kompetensi": [el.json() for el in self.elemen_kompetensi.all()]
+            "deskripsi unit": self.deskripsi_unit
+            # "elemen kompetensi": [el.json() for el in self.elemen_kompetensi.all()]
         }
 
     def save_to_db(self):

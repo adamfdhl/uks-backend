@@ -26,7 +26,7 @@ class ElemenKompetensiModel(db.Model):
         return {
             "id_unit": self.id_unit,
             "elemen kompetensi": self.elemen_kompetensi,
-            "kriteria": [kriteria.json() for kriteria in self.kriteria_unjuk_kerja.all()]
+            # "kriteria": [kriteria.json() for kriteria in self.kriteria_unjuk_kerja.all()]
         }
 
     def save_to_db(self):
