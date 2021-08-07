@@ -1,5 +1,3 @@
-import sqlite3
-import psycopg2
 from flask_restful import Resource
 from models.elemen_kompetensi import ElemenKompetensiModel
 

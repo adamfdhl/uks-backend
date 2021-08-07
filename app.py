@@ -10,15 +10,18 @@ from resources.unit_kompetensi import UnitKompetensi, ListUnitKompetensi
 from db import db
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', 'postgresql://postgres:adamfdhl@localhost/tugasakhir')
+ENV = 'dev'
+
+if ENV == 'dev':
+    app.debug = True
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', 'postgresql://postgres:adam16@localhost/tugasakhir')
+    app.secret_key = 'ganteng'
+else:
+    app.debug = False
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('')
+
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.secret_key = 'ganteng'
 api = Api(app)
-
-
-@app.before_first_request
-def create_tables():
-    db.create_all()
 
 
 # Unit API
@@ -35,6 +38,9 @@ api.add_resource(ListElemenKompetensi, '/elemens')
 api.add_resource(KriteriaUnjukKerja, '/kriteria/<int:elemen_id>')
 api.add_resource(ListKriteriaUnjukKerja, '/kriterias')
 
+
 if __name__ == "__main__":
     db.init_app(app)
-    app.run(port=5000, debug=True)
+    with app.app_context():
+        db.create_all()
+    app.run(port=5000)
