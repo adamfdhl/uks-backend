@@ -9,8 +9,8 @@ class UnitKompetensi(Resource):
     parser.add_argument("judul_unit", type=str, required=True,
                         help="This field can't be blank.")
 
-    def get(self, kode_unit):
-        uk = UnitKompetensiModel.find_by_kode_unit(kode_unit)
+    def get(self, id_unit):
+        uk = UnitKompetensiModel.find_by_id_unit(id_unit)
         if uk:
             return uk.json(), 200
         return {"message": "Unit Kompetensi not found"}

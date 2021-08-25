@@ -25,7 +25,7 @@ api = Api(app)
 
 
 # Unit API
-api.add_resource(UnitKompetensi, '/unit/<string:kode_unit>', endpoint="uk_get")
+api.add_resource(UnitKompetensi, '/unit/<int:id_unit>', endpoint="uk_get")
 api.add_resource(
     UnitKompetensi, '/unit/<string:kode_unit>/<string:judul_unit>', endpoint="uk_post")
 api.add_resource(ListUnitKompetensi, '/units')

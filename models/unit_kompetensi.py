@@ -34,6 +34,10 @@ class UnitKompetensiModel(db.Model):
     def delete_from_db(self):
         db.session.delete(self)
         db.session.commit()
+    
+    @classmethod
+    def find_by_id_unit(cls, id_unit):
+        return cls.query.get(id_unit)
 
     @classmethod
     def find_by_kode_unit(cls, kode_unit):
