@@ -6,7 +6,8 @@ class ElemenKompetensi(Resource):
     def get(self, id_unit):
         el_kompetensi = ElemenKompetensiModel.find_by_id_unit(id_unit)
         if len(el_kompetensi) > 0:
-            return el_kompetensi.json(), 200
+            result = [elemen.json() for elemen in el_kompetensi]
+            return result, 200
         return {"message": "Elemen kompetensi for {} not found".format(id_unit)}, 404
 
     def post(self, id_unit, elemen_kompetensi):
