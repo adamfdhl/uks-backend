@@ -6,6 +6,7 @@ from flask_restful import Api
 from resources.kriteria_unjuk_kerja import KriteriaUnjukKerja, ListKriteriaUnjukKerja
 from resources.elemen_kompetensi import ElemenKompetensi, ListElemenKompetensi
 from resources.unit_kompetensi import UnitKompetensi, ListUnitKompetensi
+from resources.prediction import Prediction
 
 from db import db
 
@@ -37,6 +38,9 @@ api.add_resource(ListElemenKompetensi, '/elemens')
 # Kriteria API
 api.add_resource(KriteriaUnjukKerja, '/kriteria/<int:elemen_id>')
 api.add_resource(ListKriteriaUnjukKerja, '/kriterias')
+
+# Prediction API
+api.add_resource(Prediction, '/validate')
 
 
 if __name__ == "__main__":
