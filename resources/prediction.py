@@ -33,6 +33,15 @@ class Prediction(Resource):
                 "deskripsi_unit": unit["deskripsi unit"],
                 "score": float(score)
             })
+        for elemen in ek["elemen"]:
+            score_elemen = self.get_similarity_score(query, elemen["elemen kompetensi"])
+
+            self.result.append({
+                "id_unit": elemen["id_unit"],
+                "elemen_kompetensi": elemen["elemen kompetensi"],
+                "score": float(score_elemen)
+            })
+
         top_result = sorted(self.result, key=lambda x: x["score"], reverse=True)[:5]
         return {
             "query": self.query,
