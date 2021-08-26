@@ -4,32 +4,43 @@ from flask import request
 from models.unit_kompetensi import UnitKompetensiModel
 from models.elemen_kompetensi import ElemenKompetensiModel
 
+from utils.helpers import integration_module
+
+import json
+
 
 class Prediction(Resource):
 
     def __init__(self):
-        self.sentence_1 = None
-        self.sentence_2 = None
-        self.score = 0
+        self.query = None
+        self.result = []
 
     def post(self):
-        sentence_1 = request.form['sentence_1']
-        sentence_2 = request.form['sentence_2']
-        if sentence_1:
-            self.sentence_1 = sentence_1
-        if sentence_2:
-            self.sentence_2 = sentence_2
-        self.validate()
+        query = request.form['query']
+        if query:
+            self.query = query
         uk = self.get_all_uk()
         ek = self.get_all_ek()
+        for unit in uk["unit"]:
+            score = self.get_similarity_score(query, unit["judul unit"])
+
+            self.result.append({
+                "kode_unit": unit["kode unit"],
+                "judul_unit": unit["judul unit"],
+                "deskripsi_unit": unit["deskripsi unit"],
+                "score": float(round(score, 2))
+            })
+        top_result = sorted(self.result, key=lambda x: x["score"], reverse=True)[:5]
         return {
-            "sentence_1": self.sentence_1,
-            "sentence_2": self.sentence_2,
-            "score": self.score,
+            "query": self.query,
+            "result": top_result,
         }, 200
 
-    def validate(self):
-        self.score = 0.5
+    def get_similarity_score(self, sentence_1, sentence_2):
+        proportion_semantic = 0.5
+        shared_parameter = 1 - proportion_semantic
+        score = integration_module(sentence_1, sentence_2, proportion_semantic, shared_parameter)
+        return score
     
     def get_all_uk(self):
         return {"unit": [unit.json() for unit in UnitKompetensiModel.query.all()]}
