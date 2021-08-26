@@ -22,13 +22,16 @@ class Prediction(Resource):
         uk = self.get_all_uk()
         ek = self.get_all_ek()
         for unit in uk["unit"]:
-            score = self.get_similarity_score(query, unit["judul unit"])
+            score_judul = self.get_similarity_score(query, unit["judul unit"])
+            score_deskripsi = self.get_similarity_score(query, unit["deskripsi unit"])
+
+            score = max(score_judul, score_deskripsi)
 
             self.result.append({
                 "kode_unit": unit["kode unit"],
                 "judul_unit": unit["judul unit"],
                 "deskripsi_unit": unit["deskripsi unit"],
-                "score": float(round(score, 2))
+                "score": float(score)
             })
         top_result = sorted(self.result, key=lambda x: x["score"], reverse=True)[:5]
         return {

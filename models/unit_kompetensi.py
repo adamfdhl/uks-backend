@@ -9,7 +9,7 @@ class UnitKompetensiModel(db.Model):
     deskripsi_unit = db.Column(db.String(500))
 
     elemen_kompetensi = db.relationship(
-        "ElemenKompetensiModel", lazy=True)
+        "ElemenKompetensiModel", lazy=True, backref="unit_kompetensi")
 
     def __init__(self, kode_unit, judul_unit, deskripsi_unit):
         self.kode_unit = kode_unit

@@ -7,8 +7,8 @@ class KriteriaUnjukKerjaModel(db.Model):
     kriteria = db.Column(db.String(500))
 
     elemen_id = db.Column(db.Integer, db.ForeignKey('elemen_kompetensi.id'))
-    elemen_kompetensi = db.relationship(
-        'ElemenKompetensiModel', lazy=True)
+    # elemen_kompetensi = db.relationship(
+    #     'ElemenKompetensiModel', lazy=True)
 
     def __init__(self, elemen_id, kriteria):
         self.elemen_id = elemen_id
