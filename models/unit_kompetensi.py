@@ -17,13 +17,14 @@ class UnitKompetensiModel(db.Model):
         self.deskripsi_unit = deskripsi_unit
 
     def __repr__(self):
-        return "<UnitKompetensi kode_unit: {}, judul_unit: {}, deskripsi_unit: {}>".format(self.kode_unit, self.judul_unit, self.deskripsi_unit)
+        return "<UnitKompetensi id: {}, kode_unit: {}, judul_unit: {}, deskripsi_unit: {}>".format(self.id, self.kode_unit, self.judul_unit, self.deskripsi_unit)
 
     def json(self):
         return {
-            "kode unit": self.kode_unit,
-            "judul unit": self.judul_unit,
-            "deskripsi unit": self.deskripsi_unit
+            "id_unit": self.id,
+            "kode_unit": self.kode_unit,
+            "judul_unit": self.judul_unit,
+            "deskripsi_unit": self.deskripsi_unit
             # "elemen kompetensi": [el.json() for el in self.elemen_kompetensi.all()]
         }
 
