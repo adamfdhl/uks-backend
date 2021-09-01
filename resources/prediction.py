@@ -13,38 +13,79 @@ class Prediction(Resource):
 
     def __init__(self):
         self.query = None
+        self.filter = None
         self.result = []
 
     def post(self):
-        query = request.form['query']
+        # query = request.form['query']
+        data = request.get_json()
+        query = data["query"]
+        selected_filter = data["filter"]
+
         if query:
             self.query = query
-        uk = self.get_all_uk()
-        ek = self.get_all_ek()
-        for unit in uk["unit"]:
-            score_judul = self.get_similarity_score(query, unit["judul unit"])
-            score_deskripsi = self.get_similarity_score(query, unit["deskripsi unit"])
+        if selected_filter:
+            self.filter = selected_filter
+        
+        if self.filter == "unit_kompetensi":
+            print("enter unit_kompetensi")
+            uk = self.get_all_uk()
 
-            score = max(score_judul, score_deskripsi)
+            for unit in uk["unit"]:
+                score_judul = self.get_similarity_score(query, unit["judul_unit"])
+                score_deskripsi = self.get_similarity_score(query, unit["deskripsi_unit"])
 
-            self.result.append({
-                "kode_unit": unit["kode unit"],
-                "judul_unit": unit["judul unit"],
-                "deskripsi_unit": unit["deskripsi unit"],
-                "score": float(score)
-            })
-        for elemen in ek["elemen"]:
-            score_elemen = self.get_similarity_score(query, elemen["elemen kompetensi"])
+                score = max(score_judul, score_deskripsi)
 
-            self.result.append({
-                "id_unit": elemen["id_unit"],
-                "elemen_kompetensi": elemen["elemen kompetensi"],
-                "score": float(score_elemen)
-            })
+                self.result.append({
+                    "kode_unit": unit["kode_unit"],
+                    "judul_unit": unit["judul_unit"],
+                    "deskripsi_unit": unit["deskripsi_unit"],
+                    "similarity_score": float(score)
+                })
+        elif self.filter == "elemen_kompetensi":
+            print("enter elemen_kompetensi")
+            ek = self.get_all_ek()    
+            for elemen in ek["elemen"]:
+                score_elemen = self.get_similarity_score(query, elemen["elemen_kompetensi"])
 
-        top_result = sorted(self.result, key=lambda x: x["score"], reverse=True)[:5]
+                self.result.append({
+                    "id_unit": elemen["id_unit"],
+                    "elemen_kompetensi": elemen["elemen_kompetensi"],
+                    "similarity_score": float(score_elemen)
+                })
+        elif self.filter == None:
+            # no filter
+            print("enter no filter")
+            uk = self.get_all_uk()
+            ek = self.get_all_ek()
+            for unit in uk["unit"]:
+                score_judul = self.get_similarity_score(query, unit["judul_unit"])
+                score_deskripsi = self.get_similarity_score(query, unit["deskripsi_unit"])
+
+                score = max(score_judul, score_deskripsi)
+
+                self.result.append({
+                    "id_unit": unit["id_unit"],
+                    "kode_unit": unit["kode_unit"],
+                    "judul_unit": unit["judul_unit"],
+                    "deskripsi_unit": unit["deskripsi_unit"],
+                    "similarity_score": float(score)
+                })
+
+            for elemen in ek["elemen"]:
+                score_elemen = self.get_similarity_score(query, elemen["elemen_kompetensi"])
+
+                self.result.append({
+                    "id_unit": elemen["id_unit"],
+                    "elemen_kompetensi": elemen["elemen_kompetensi"],
+                    "similarity_score": float(score_elemen)
+                })
+
+        top_result = sorted(self.result, key=lambda x: x["similarity_score"], reverse=True)[:5]
         return {
             "query": self.query,
+            "filter": self.filter,
             "result": top_result,
         }, 200
 

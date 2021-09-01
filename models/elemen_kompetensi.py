@@ -23,7 +23,7 @@ class ElemenKompetensiModel(db.Model):
     def json(self):
         return {
             "id_unit": self.id_unit,
-            "elemen kompetensi": self.elemen_kompetensi,
+            "elemen_kompetensi": self.elemen_kompetensi,
             # "kriteria": [kriteria.json() for kriteria in self.kriteria_unjuk_kerja.all()]
         }
 

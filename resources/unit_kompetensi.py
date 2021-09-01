@@ -11,7 +11,6 @@ class UnitKompetensi(Resource):
 
     def get(self, id_unit):
         uk = UnitKompetensiModel.find_by_id_unit(id_unit)
-        print(uk)
         if uk:
             return uk.json(), 200
         return {"message": "Unit Kompetensi not found"}
@@ -36,6 +35,4 @@ class UnitKompetensi(Resource):
 
 class ListUnitKompetensi(Resource):
     def get(self):
-        for unit in UnitKompetensiModel.query.all():
-            print(unit)
         return {"unit": [unit.json() for unit in UnitKompetensiModel.query.all()]}
