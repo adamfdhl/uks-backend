@@ -38,6 +38,7 @@ class Prediction(Resource):
                 score = max(score_judul, score_deskripsi)
 
                 self.result.append({
+                    "id_unit": unit["id_unit"],
                     "kode_unit": unit["kode_unit"],
                     "judul_unit": unit["judul_unit"],
                     "deskripsi_unit": unit["deskripsi_unit"],

@@ -2,6 +2,7 @@ import os
 import psycopg2
 from flask import Flask
 from flask_restful import Api
+from flask_cors import CORS
 
 from resources.kriteria_unjuk_kerja import KriteriaUnjukKerja, ListKriteriaUnjukKerja
 from resources.elemen_kompetensi import ElemenKompetensi, ListElemenKompetensi
@@ -11,6 +12,7 @@ from resources.prediction import Prediction
 from db import db
 
 app = Flask(__name__)
+CORS(app)
 ENV = 'dev'
 
 if ENV == 'dev':
