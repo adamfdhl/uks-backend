@@ -872,4 +872,229 @@ map_id_unit_to_skkni = {
   292 : {
     "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
   },
+  293 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  294 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  295 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  296 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  297 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  298 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  299 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  300 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  301 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  302 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  303 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  304 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  305 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  306 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  307 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  308 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  309 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  310 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  311 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  312 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  313 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  314 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  315 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  316 : {
+    "skkni": "SKKNI Nomor 321 Tahun 2016 : Jaringan Komputer"
+  },
+  317 : {
+    "skkni": "SKKNI Nomor 44 Tahun 2017 : Requirements Analysis Design"
+  },
+  318 : {
+    "skkni": "SKKNI Nomor 44 Tahun 2017 : Requirements Analysis Design"
+  },
+  319 : {
+    "skkni": "SKKNI Nomor 44 Tahun 2017 : Requirements Analysis Design"
+  },
+  320 : {
+    "skkni": "SKKNI Nomor 44 Tahun 2017 : Requirements Analysis Design"
+  },
+  321 : {
+    "skkni": "SKKNI Nomor 44 Tahun 2017 : Requirements Analysis Design"
+  },
+  322 : {
+    "skkni": "SKKNI Nomor 44 Tahun 2017 : Requirements Analysis Design"
+  },
+  323 : {
+    "skkni": "SKKNI Nomor 44 Tahun 2017 : Requirements Analysis Design"
+  },
+  324 : {
+    "skkni": "SKKNI Nomor 44 Tahun 2017 : Requirements Analysis Design"
+  },
+  325 : {
+    "skkni": "SKKNI Nomor 44 Tahun 2017 : Requirements Analysis Design"
+  },
+  326 : {
+    "skkni": "SKKNI Nomor 44 Tahun 2017 : Requirements Analysis Design"
+  },
+  327 : {
+    "skkni": "SKKNI Nomor 44 Tahun 2017 : Requirements Analysis Design"
+  },
+  328 : {
+    "skkni": "SKKNI Nomor 44 Tahun 2017 : Requirements Analysis Design"
+  },
+  329 : {
+    "skkni": "SKKNI Nomor 44 Tahun 2017 : Requirements Analysis Design"
+  },
+  330 : {
+    "skkni": "SKKNI Nomor 44 Tahun 2017 : Requirements Analysis Design"
+  },
+  331 : {
+    "skkni" : "SKKNI Nomor 47 Tahun 2017 : Quality Assurance"
+  },
+  332 : {
+    "skkni" : "SKKNI Nomor 47 Tahun 2017 : Quality Assurance"
+  },
+  333 : {
+    "skkni" : "SKKNI Nomor 47 Tahun 2017 : Quality Assurance"
+  },
+  334 : {
+    "skkni" : "SKKNI Nomor 47 Tahun 2017 : Quality Assurance"
+  },
+  335 : {
+    "skkni" : "SKKNI Nomor 47 Tahun 2017 : Quality Assurance"
+  },
+  336 : {
+    "skkni" : "SKKNI Nomor 47 Tahun 2017 : Quality Assurance"
+  },
+  337 : {
+    "skkni" : "SKKNI Nomor 47 Tahun 2017 : Quality Assurance"
+  },
+  338 : {
+    "skkni" : "SKKNI Nomor 47 Tahun 2017 : Quality Assurance"
+  },
+  339 : {
+    "skkni" : "SKKNI Nomor 47 Tahun 2017 : Quality Assurance"
+  },
+  340 : {
+    "skkni" : "SKKNI Nomor 47 Tahun 2017 : Quality Assurance"
+  },
+  341 : {
+    "skkni" : "SKKNI Nomor 47 Tahun 2017 : Quality Assurance"
+  },
+  342 : {
+    "skkni" : "SKKNI Nomor 47 Tahun 2017 : Quality Assurance"
+  },
+  343 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  344 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  345 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  346 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  347 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  348 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  349 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  350 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  351 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  352 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  353 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  354 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  355 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  356 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  357 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  358 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  359 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  360 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  361 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  362 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  363 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  364 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  365 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  366 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
+  367 : {
+    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+  },
 }
