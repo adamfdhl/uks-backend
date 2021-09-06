@@ -5,6 +5,7 @@ from models.unit_kompetensi import UnitKompetensiModel
 from models.elemen_kompetensi import ElemenKompetensiModel
 
 from utils.helpers import integration_module
+from utils.constants import map_id_unit_to_skkni
 
 import json
 
@@ -39,6 +40,7 @@ class Prediction(Resource):
 
                 self.result.append({
                     "id_unit": unit["id_unit"],
+                    "skkni" : map_id_unit_to_skkni[unit["id_unit"]],
                     "kode_unit": unit["kode_unit"],
                     "judul_unit": unit["judul_unit"],
                     "deskripsi_unit": unit["deskripsi_unit"],
@@ -52,6 +54,7 @@ class Prediction(Resource):
 
                 self.result.append({
                     "id_unit": elemen["id_unit"],
+                    "skkni": map_id_unit_to_skkni[elemen["id_unit"]],
                     "elemen_kompetensi": elemen["elemen_kompetensi"],
                     "similarity_score": float(score_elemen)
                 })
@@ -68,6 +71,7 @@ class Prediction(Resource):
 
                 self.result.append({
                     "id_unit": unit["id_unit"],
+                    "skkni": map_id_unit_to_skkni[unit["id_unit"]],
                     "kode_unit": unit["kode_unit"],
                     "judul_unit": unit["judul_unit"],
                     "deskripsi_unit": unit["deskripsi_unit"],
@@ -79,6 +83,7 @@ class Prediction(Resource):
 
                 self.result.append({
                     "id_unit": elemen["id_unit"],
+                    "skkni": map_id_unit_to_skkni[elemen["id_unit"]],
                     "elemen_kompetensi": elemen["elemen_kompetensi"],
                     "similarity_score": float(score_elemen)
                 })

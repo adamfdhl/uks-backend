@@ -695,6 +695,9 @@ map_id_unit_to_skkni = {
   232 : {
     "skkni": "SKKNI Nomor 139 : Sistem Perencanaan Sumber Daya Perusahaan"
   },
+  233 : {
+    "skkni": "SKKNI Nomor 139 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
   234 : {
     "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
   },

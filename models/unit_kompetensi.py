@@ -1,4 +1,5 @@
 from db import db
+from utils.constants import map_id_unit_to_skkni
 
 
 class UnitKompetensiModel(db.Model):
@@ -22,6 +23,7 @@ class UnitKompetensiModel(db.Model):
     def json(self):
         return {
             "id_unit": self.id,
+            "skkni": map_id_unit_to_skkni[self.id],
             "kode_unit": self.kode_unit,
             "judul_unit": self.judul_unit,
             "deskripsi_unit": self.deskripsi_unit
