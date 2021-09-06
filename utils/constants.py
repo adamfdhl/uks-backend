@@ -1026,78 +1026,78 @@ map_id_unit_to_skkni = {
     "skkni" : "SKKNI Nomor 47 Tahun 2017 : Quality Assurance"
   },
   343 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   344 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   345 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   346 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   347 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   348 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   349 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   350 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   351 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   352 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   353 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   354 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   355 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   356 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   357 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   358 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   359 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   360 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   361 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   362 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   363 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   364 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   365 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   366 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
   367 : {
-    "skkni" : "SKKNi Nomor 82 Tahun 2017 : Administrasi Sistem"
+    "skkni" : "SKKNI Nomor 82 Tahun 2017 : Administrasi Sistem"
   },
 }
