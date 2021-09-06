@@ -434,5 +434,442 @@ map_id_unit_to_skkni = {
   145 : {
     "skkni": "SKKNI Nomor 55 Tahun 2015 : Keamanan Informasi"
   },
-  
+  146 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  147 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  148 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  149 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  150 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  151 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  152 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  153 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  154 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  155 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  156 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  157 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  158 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  159 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  160 : {
+    "skkni" : "SKKNI Nomor 90 Tahun 2015 : Enterprise Arcitecture Design"
+  },
+  161 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  162 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  163 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  164 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  165 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  166 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  167 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  168 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  169 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  170 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  171 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  172 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  173 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  174 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  175 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  176 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  177 : {
+    "skkni": "SKKNI Nomor 456 Tahun 2015 : Cloud Computing"
+  },
+  178 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  179 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  180 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  181 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  182 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  183 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  184 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  185 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  186 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  187 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  188 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  189 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  190 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  191 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  192 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  193 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  194 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  195 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  196 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  197 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  198 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  199 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  200 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  201 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  202 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  203 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  204 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  205 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  206 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  207 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  208 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  209 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  210 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  211 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  212 : {
+    "skkni": "SKKNI Nomor 458 Tahun 2015 : Mobile Computing"
+  },
+  213 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  214 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  215 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  216 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  217 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  218 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  219 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  220 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  221 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  222 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  223 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  224 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  225 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  226 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  227 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  228 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  229 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  230 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  231 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  232 : {
+    "skkni": "SKKNI Nomor 139 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  234 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  235 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  236 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  237 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  238 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  239 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  240 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  241 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  242 : {
+    "skkni": "SKKNI Nomor 139 Tahun 2016 : Sistem Perencanaan Sumber Daya Perusahaan"
+  },
+  243 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  244 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  245 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  246 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  247 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  248 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  249 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  250 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  251 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  252 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  253 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  254 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  255 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  256 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  257 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  258 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  259 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  260 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  261 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  262 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  263 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  264 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  265 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  266 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  267 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  268 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  269 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  270 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  271 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  272 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  273 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  274 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  275 : {
+    "skkni": "SKKNI Nomor 285 Tahun 2016 : Computer Technical Support"
+  },
+  276 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  277 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  278 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  279 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  280 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  281 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  282 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  283 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  284 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  285 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  286 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  287 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  288 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  289 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  290 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  291 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
+  292 : {
+    "skkni": "SKKNI Nomor 56 Tahun 2018 : Pengoperasian Komputer"
+  },
 }
